@@ -99,6 +99,14 @@ hr {
     font-weight: 900;
     padding: 5%;
 }
+
+.formu{
+    color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+    font-weight: 900;
+    text-align: right;
+    padding-top: 20px;
+}
 .quemsou img {
     padding: 3%;
     border-radius: 400px;

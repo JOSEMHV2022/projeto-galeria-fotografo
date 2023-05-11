@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a class="voltar" href="index.html"><-Home</a>
+    </header>
+    <main>
+        <div class="main_img">
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=senai birigui&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://capcuttemplate.org/">Capcut Templates</a></div><style>.mapouter{position:relative;text-align:right;width:85%;height:100%;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {width:100%!important;height:400px!important;}</style></div>
+        </div>
+        <br>
+        <div class="form">
+            <div class="form_title">
+                <h2>Formulário de contato</h2>
+            </div>
+            <form action="" id="myform">
+                <div class="form_input1">
+                    <label>Nome</label>
+                    <input type="text" name="nome" required placeholder="Seu nome aqui" maxlength="100">
+                </div>
+                <div class="form_input1">
+                    <label>Email</label>
+                    <input type="email" name="email" required placeholder="Seu email aqui" maxlength="100">
+                </div>
+                <div class="form_input2">
+                    <label>Mensagem</label>
+                    <textarea name="mensagem" rows="5" placeholder="Sua mensagem aqui" maxlength="150"></textarea>
+                </div>
+                <div class="form_input3">
+                    <h3>Tipo da mensagem</h3>
+                    <div class="form_radio">
+                        <br>
+                        <div>
+                            <input type="radio" name="check" id="check1">
+                            <label for="check1">Dúvida</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="check" id="check2">
+                            <label for="check2">Contratar</label>
+                        </div>
+                    </div>       
+                </div>
+                <div class="form_submit">
+                    <input id="botao" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="linha">
+            <div class="link">
+                <a href="">
+                    <div><img class="icon_link" src="assets/instagram-icon.png" alt=""></div><span>@Felipe_renne</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <div><img class="icon_link" src="assets/linkedin-icon.png" alt=""></div><span>@felipe_renne</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <div><img class="icon_link" src="assets/wats-icon.png" alt=""></div><span>(18) 99999-9999</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <div><img class="icon_link" src="assets/facebook-icon.png" alt=""></div><span>Felipe Renne</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <div><img class="icon_link" src="assets/gamail-icon.png" alt=""></div><span>FelipeRenne@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
